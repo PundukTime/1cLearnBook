@@ -16,4 +16,7 @@
     <picture>CommonPicture.Услуги</picture>
   </picture>
   <content>Catalog.Клиенты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
 </mdclass:Subsystem>

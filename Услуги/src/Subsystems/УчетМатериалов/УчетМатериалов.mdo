@@ -10,4 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.УчетМатериалов</picture>
   </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
 </mdclass:Subsystem>

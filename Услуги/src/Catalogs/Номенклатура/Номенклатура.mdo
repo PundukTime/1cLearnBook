@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1a09d20-c5d4-489b-ad24-a170c8536449">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a17be66-d40b-4378-af4d-2ba5d83c2521">
   <producedTypes>
-    <objectType typeId="bdc9c3e4-e375-4f7b-ae4b-12813cbbddb8" valueTypeId="ab844371-630a-4d7a-b986-1c4fff71b007"/>
-    <refType typeId="288b5de0-2b06-4a49-93fe-d23f9d308b39" valueTypeId="2903e77f-9496-4edf-8bd2-c2e9a7a09619"/>
-    <selectionType typeId="78d608c1-42c5-4bb2-9ef8-82224b6f89b0" valueTypeId="5826f81c-4f46-4fc2-9054-b7ee66974219"/>
-    <listType typeId="6ab1a19b-8a38-45f9-8c0d-f470fe95c067" valueTypeId="9be5deb1-8500-4442-a534-a736d153b931"/>
-    <managerType typeId="5d9f9fd9-5f32-452a-a2b2-a374590839f2" valueTypeId="90928294-1031-4a11-832d-198d104d34a3"/>
+    <objectType typeId="36dac60b-5b32-40f1-ade2-d2a50530ecfb" valueTypeId="1b393921-d57c-44f2-b297-ed4173f66818"/>
+    <refType typeId="38e44cdf-d973-4543-8a91-7feaac4031e6" valueTypeId="104776fb-077b-4f08-988a-e2bf43f28509"/>
+    <selectionType typeId="1187f7d8-37aa-42ef-94fc-f9aad91b107d" valueTypeId="43aae907-5e8c-41bf-8139-6fe382e0fabc"/>
+    <listType typeId="fde1cb64-0226-454b-b919-5124305bc838" valueTypeId="28f7ebde-e890-4ed2-b367-2252ff8a53c4"/>
+    <managerType typeId="f2cd49e0-1d97-46d5-ba03-2e20500610de" valueTypeId="ae4e251f-8207-4b69-99a5-5c16aa666d7f"/>
   </producedTypes>
-  <name>Клиенты</name>
+  <name>Номенклатура</name>
   <synonym>
     <key>ru</key>
-    <value>Клиенты</value>
+    <value>Номенклатура</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -66,6 +66,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа Материалов</value>
+    </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -75,10 +79,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ф.И.О.</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -94,17 +94,21 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Материал</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>50</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>

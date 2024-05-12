@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Зарплата</picture>
   </picture>
+  <content>Catalog.Сотрудники</content>
 </mdclass:Subsystem>
