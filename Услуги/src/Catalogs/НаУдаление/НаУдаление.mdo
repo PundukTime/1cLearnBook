@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d983f989-be24-495a-8b39-0ffc6408355d">
+  <producedTypes>
+    <objectType typeId="d59ca131-e485-4b77-b582-f9256a45aa3e" valueTypeId="a3b4e972-7060-4ea9-a82f-acf78b416dbf"/>
+    <refType typeId="acf67230-2128-42c6-a195-cbd1d91372df" valueTypeId="71e95922-fc25-48e4-91e3-9b9036d1a668"/>
+    <selectionType typeId="f2fe4924-898e-41b5-9ed7-31e3d623033a" valueTypeId="54b3576a-13e7-4488-af9b-dafceae480a2"/>
+    <listType typeId="6018cfa9-2d4c-4f07-bd6f-e638fe5c21b3" valueTypeId="f4376737-52ad-4c07-9967-7ebce45adb20"/>
+    <managerType typeId="fb6a400f-1006-4c87-803d-29d7468ee7b4" valueTypeId="d309878b-a2bf-4889-b1fc-fae1c8e203b0"/>
+  </producedTypes>
+  <name>НаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>На удаление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаУдаление.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НаУдаление.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
