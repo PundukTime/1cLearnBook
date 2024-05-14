@@ -19,4 +19,6 @@
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Склады</content>
+  <content>Document.ОказаниеУслуг</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
 </mdclass:Subsystem>
