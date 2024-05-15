@@ -21,4 +21,5 @@
   <content>Catalog.Склады</content>
   <content>Document.ОказаниеУслуг</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>Report.Материалы</content>
 </mdclass:Subsystem>
