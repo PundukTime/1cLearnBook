@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="520a662d-fcd1-464c-baa5-8ae95eb77164">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="520a662d-fcd1-464c-baa5-8ae95eb77164">
   <producedTypes>
     <selectionType typeId="e869db3a-2175-4e24-a459-4b2c56de0e82" valueTypeId="568686e3-09f8-4f88-8d96-ab6be90619a4"/>
     <listType typeId="e8d4b7b0-a151-43c3-a387-df0da700d81f" valueTypeId="cc03be5a-02e4-4987-a424-594b7f4284a5"/>
@@ -16,4 +16,53 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения по регистру Остатки материалов</value>
+  </extendedListPresentation>
+  <resources uuid="5a70dc57-a4fa-4d30-970a-12e22f54bf4a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="55dff696-7bb1-4438-9150-8032d4752bdd">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5660cc3b-b668-4e49-9b0f-d85381d1de9d">
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>

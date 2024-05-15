@@ -27,6 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f0845d4d-8321-46fa-a567-50f950de9a26">

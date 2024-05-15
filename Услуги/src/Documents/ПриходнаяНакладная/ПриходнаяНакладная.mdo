@@ -33,6 +33,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="383e5dd8-dfd9-4d19-bb74-bd88b8fc8bfa">
