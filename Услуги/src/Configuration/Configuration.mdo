@@ -56,5 +56,6 @@
   <catalogs>Catalog.СписокСкладов</catalogs>
   <documents>Document.ОказаниеУслуг</documents>
   <documents>Document.ПриходнаяНакладная</documents>
+  <reports>Report.Материалы</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
 </mdclass:Configuration>
