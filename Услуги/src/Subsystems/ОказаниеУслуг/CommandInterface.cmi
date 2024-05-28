@@ -14,7 +14,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ОказаниеУслуг.StandardCommand.Create</command>
+      <command>Document.ОказаниеУслуги.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>

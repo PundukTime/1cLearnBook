@@ -55,7 +55,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СписокМатериалов</catalogs>
   <catalogs>Catalog.СписокСкладов</catalogs>
-  <documents>Document.ОказаниеУслуг</documents>
+  <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Материалы</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
