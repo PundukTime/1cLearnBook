@@ -48,13 +48,14 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Услуги</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <commonModules>CommonModule.Серверный</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СписокМатериалов</catalogs>
   <catalogs>Catalog.СписокСкладов</catalogs>
-  <documents>Document.ОказаниеУслуг</documents>
+  <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Материалы</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>

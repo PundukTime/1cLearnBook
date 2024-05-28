@@ -7,13 +7,13 @@
     <listType typeId="e752bc5b-8520-4b30-b331-2ac61aa29773" valueTypeId="1cf994ca-ff21-4fe2-a875-285a2cec36a0"/>
     <managerType typeId="103fe050-7024-445d-b1f3-316b4b94eb55" valueTypeId="ef131be5-f7cf-4b8a-9595-7eea886328ba"/>
   </producedTypes>
-  <name>ОказаниеУслуг</name>
+  <name>ОказаниеУслуги</name>
   <synonym>
     <key>ru</key>
-    <value>Оказание услуг</value>
+    <value>Оказание услуги</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ОказаниеУслуг.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ОказаниеУслуги.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
