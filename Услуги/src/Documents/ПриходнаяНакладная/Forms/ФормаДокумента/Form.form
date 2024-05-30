@@ -269,6 +269,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Материалы.Количество</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>МатериалыКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>МатериалыКоличествоРасширеннаяПодсказка</name>
         <id>31</id>
@@ -319,6 +323,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Материалы.Цена</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>МатериалыЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>МатериалыЦенаРасширеннаяПодсказка</name>
         <id>34</id>
@@ -419,6 +427,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>OnChange</event>
+      <name>МатериалыПриИзменении</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -593,6 +605,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
