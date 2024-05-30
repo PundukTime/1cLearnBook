@@ -369,6 +369,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ПереченьНоменклатуры.Количество</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПереченьНоменклатурыКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ПереченьНоменклатурыКоличествоРасширеннаяПодсказка</name>
         <id>37</id>
@@ -419,6 +423,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ПереченьНоменклатуры.Цена</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПереченьНоменклатурыЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ПереченьНоменклатурыЦенаРасширеннаяПодсказка</name>
         <id>40</id>
@@ -519,10 +527,6 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
-    <handlers>
-      <event>OnActivateRow</event>
-      <name>ПереченьНоменклатурыПриАктивизацииСтроки</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
