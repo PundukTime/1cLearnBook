@@ -49,7 +49,6 @@
   <commonPictures>CommonPicture.Услуги</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
-  <commonModules>CommonModule.Серверный</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
