@@ -58,6 +58,7 @@
   <catalogs>Catalog.СписокСкладов</catalogs>
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.Материалы</reports>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
