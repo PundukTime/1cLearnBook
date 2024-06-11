@@ -31,11 +31,20 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelReports</group>
+      <commands>InformationRegister.Цены.StandardCommand.Create</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>InformationRegister.Цены.StandardCommand.Create</commands>
+      <commands>Report.Материалы.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
