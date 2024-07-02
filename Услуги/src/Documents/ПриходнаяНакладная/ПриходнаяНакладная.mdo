@@ -34,6 +34,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
+  <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="383e5dd8-dfd9-4d19-bb74-bd88b8fc8bfa">
@@ -149,6 +150,9 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="30cf6b72-73a9-48d7-b6bf-22d95fdf1842">
+    <name>Печать</name>
+  </templates>
   <commands uuid="265700f5-4fcb-4fc9-8035-6f21224b5d1f">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>

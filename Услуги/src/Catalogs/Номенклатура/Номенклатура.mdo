@@ -116,7 +116,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="e2b8167c-c64d-468e-95d9-27dd5fd44107">
+  <attributes uuid="95a500f1-8b56-4480-833b-15acaa57f21b">
     <name>ВидНоменклатуры</name>
     <synonym>
       <key>ru</key>
