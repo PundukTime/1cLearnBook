@@ -37,6 +37,12 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -44,6 +50,7 @@
       <commands>InformationRegister.Цены.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelReports</group>
@@ -59,6 +66,7 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.Цены.StandardCommand.OpenList</commands>

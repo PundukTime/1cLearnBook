@@ -24,4 +24,6 @@
   <content>Report.Материалы</content>
   <content>InformationRegister.Цены</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.РеестрДокументовОказаниеУслуги</content>
 </mdclass:Subsystem>
