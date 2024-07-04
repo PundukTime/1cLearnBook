@@ -19,4 +19,5 @@
   <content>InformationRegister.Цены</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>Report.РейтингУслуг</content>
 </mdclass:Subsystem>
