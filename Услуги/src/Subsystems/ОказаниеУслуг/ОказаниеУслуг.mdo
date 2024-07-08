@@ -28,4 +28,5 @@
   <content>Report.РеестрДокументовОказаниеУслуги</content>
   <content>Report.РейтингУслуг</content>
   <content>Report.ВыручкаМастеров</content>
+  <content>Report.ПереченьУслуг</content>
 </mdclass:Subsystem>
