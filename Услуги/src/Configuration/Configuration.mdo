@@ -63,7 +63,9 @@
   <reports>Report.Материалы</reports>
   <reports>Report.ПереченьУслуг</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
+  <reports>Report.РейтингКлиентов</reports>
   <reports>Report.РейтингУслуг</reports>
+  <reports>Report.Универсальный</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
