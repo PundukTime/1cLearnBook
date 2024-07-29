@@ -52,7 +52,7 @@
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Склад</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СписокМатериалов</catalogs>
   <catalogs>Catalog.СписокСкладов</catalogs>

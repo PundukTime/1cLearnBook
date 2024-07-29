@@ -52,13 +52,13 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="5660cc3b-b668-4e49-9b0f-d85381d1de9d">
-    <name>Склады</name>
+    <name>Склад</name>
     <synonym>
       <key>ru</key>
-      <value>Склады</value>
+      <value>Склад</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Склад</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

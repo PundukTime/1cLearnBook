@@ -11,7 +11,7 @@
     <picture>CommonPicture.УчетМатериалов</picture>
   </picture>
   <content>Catalog.Номенклатура</content>
-  <content>Catalog.Склады</content>
+  <content>Catalog.Склад</content>
   <content>Document.ПриходнаяНакладная</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
