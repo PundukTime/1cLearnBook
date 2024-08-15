@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e74b2c3d-5e20-4266-be52-e7ff9562bb77">
+  <producedTypes>
+    <objectType typeId="a6116895-5251-489a-8572-e375672e78c3" valueTypeId="16ab4bbe-237b-4954-95e5-db3aaf490835"/>
+    <refType typeId="c004aba4-3111-4112-9fcc-1a9370750e52" valueTypeId="393cbe63-276f-4287-9d01-09b18317dbdc"/>
+    <selectionType typeId="5c88ad38-4e04-499c-a45c-a76edf65912c" valueTypeId="ea4125a1-985c-473e-884a-3cf608b990ce"/>
+    <listType typeId="f53cad8a-0e24-41f6-b0ef-3e493d7656e9" valueTypeId="068babdf-ace0-482b-ad99-b7a407deffc2"/>
+    <managerType typeId="dca938b2-cd1e-4ca2-a7c8-e07b5b767305" valueTypeId="743d321b-b30e-4bf0-bc19-ff4bae8bee0a"/>
+    <containerType typeId="0054c0c0-d0c5-4d13-8b91-384fdc57c89e" valueTypeId="b4fea478-9747-4ff5-8a29-e5991c2778fd"/>
+  </producedTypes>
+  <name>СвойстваНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ДополнительныеСвойстваНоменклатуры</characteristicExtValues>
+  <type>
+    <types>String</types>
+    <types>Number</types>
+    <types>Boolean</types>
+    <types>CatalogRef.ДополнительныеСвойстваНоменклатуры</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
