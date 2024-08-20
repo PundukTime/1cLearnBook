@@ -45,7 +45,17 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВариантыНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
-  <forms uuid="ed16cd47-e444-4891-b901-c75c0d1e7baa">
+  <defaultListForm>Catalog.ВариантыНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <forms uuid="895e55f6-9d97-4d4c-a187-4496dba946f8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c404916e-01e1-4e71-9186-3809a0f157d0">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
