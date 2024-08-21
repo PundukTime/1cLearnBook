@@ -47,4 +47,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.СвойстваНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="58d79300-1f93-480a-9f72-04eb9d8b18d2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ChartOfCharacteristicTypes>

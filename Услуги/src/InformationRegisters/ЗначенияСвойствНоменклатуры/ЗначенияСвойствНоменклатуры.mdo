@@ -12,11 +12,17 @@
   <name>ЗначенияСвойствНоменклатуры</name>
   <synonym>
     <key>ru</key>
-    <value>Значения свойств номенклатуры</value>
+    <value> </value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗначенияСвойствНоменклатуры.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗначенияСвойствНоменклатуры.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Свойство и значение</value>
+  </recordPresentation>
   <listPresentation>
     <key>ru</key>
     <value>Состав варианта номенклатуры</value>
@@ -65,7 +71,7 @@
     <name>ВидСвойства</name>
     <synonym>
       <key>ru</key>
-      <value>Вид свойства</value>
+      <value>Свойство</value>
     </synonym>
     <type>
       <types>ChartOfCharacteristicTypesRef.СвойстваНоменклатуры</types>
@@ -77,4 +83,22 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="7e4b3ac6-a742-4c22-91ba-c99ccadfcec3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="08d22fbb-8227-411d-9844-92fd63448d92">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
