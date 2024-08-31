@@ -19,6 +19,12 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>AccountingRegister.Управленческий.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -26,6 +32,8 @@
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelReports</group>
@@ -35,6 +43,8 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
+      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
