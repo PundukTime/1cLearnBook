@@ -259,12 +259,8 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>НаборСвойств</name>
-      <id>41</id>
-      <title>
-        <key>ru</key>
-        <value>Набор Свойств</value>
-      </title>
+      <name>МатериалыНаборСвойств</name>
+      <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -274,8 +270,8 @@
         <segments>Объект.Материалы.НаборСвойств</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаборСвойствРасширеннаяПодсказка</name>
-        <id>43</id>
+        <name>МатериалыНаборСвойствРасширеннаяПодсказка</name>
+        <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -289,8 +285,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НаборСвойствКонтекстноеМеню</name>
-        <id>42</id>
+        <name>МатериалыНаборСвойствКонтекстноеМеню</name>
+        <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -481,6 +477,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>ChoiceProcessing</event>
+      <name>МатериалыОбработкаВыбора</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -655,7 +655,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

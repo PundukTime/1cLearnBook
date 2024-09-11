@@ -65,6 +65,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="e7ea90fc-9072-4d2c-8252-d368803c4cdb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="c42bfe49-ead4-4c9a-a502-ffe2e1c73eed">
     <producedTypes>
       <objectType typeId="7cc5ce5e-0169-4624-8050-2822746f5dee" valueTypeId="e5c90014-eb28-4f0b-8d06-b62867c07dd8"/>
@@ -75,6 +84,7 @@
       <key>ru</key>
       <value>Материалы</value>
     </synonym>
+    <fillChecking>ShowError</fillChecking>
     <attributes uuid="64fc9213-8e64-4fe6-903b-fde5f9b40d76">
       <name>Материал</name>
       <synonym>
@@ -87,6 +97,24 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45e42dfd-8811-483d-8cda-43f032b6cea4">
+      <name>НаборСвойств</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор свойств</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Материал</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -147,24 +175,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="45e42dfd-8811-483d-8cda-43f032b6cea4">
-      <name>НаборСвойств</name>
-      <synonym>
-        <key>ru</key>
-        <value>Набор свойств</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВариантыНоменклатуры</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <field>Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Материал</field>
-      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
