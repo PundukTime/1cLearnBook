@@ -25,4 +25,5 @@
   <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
   <content>ChartOfAccounts.Основной</content>
   <content>AccountingRegister.Управленческий</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
 </mdclass:Subsystem>

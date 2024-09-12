@@ -64,6 +64,7 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ВыручкаМастеров</reports>
   <reports>Report.Материалы</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
   <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
   <reports>Report.ПереченьУслуг</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
