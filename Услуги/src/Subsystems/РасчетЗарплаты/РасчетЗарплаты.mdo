@@ -12,4 +12,7 @@
   </picture>
   <content>Catalog.Сотрудники</content>
   <content>Report.ВыручкаМастеров</content>
+  <content>Catalog.ВидыГрафиковРаботы</content>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>CalculationRegister.Начисления</content>
 </mdclass:Subsystem>
