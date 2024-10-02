@@ -15,4 +15,5 @@
   <content>Catalog.ВидыГрафиковРаботы</content>
   <content>InformationRegister.ГрафикиРаботы</content>
   <content>CalculationRegister.Начисления</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
 </mdclass:Subsystem>
