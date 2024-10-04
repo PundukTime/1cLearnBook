@@ -48,6 +48,8 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Услуги</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
+  <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
@@ -60,13 +62,17 @@
   <catalogs>Catalog.СписокМатериалов</catalogs>
   <catalogs>Catalog.СписокСкладов</catalogs>
   <catalogs>Catalog.Субконто</catalogs>
+  <documents>Document.НачисленияСотрудникам</documents>
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.ДиаграммаНачислений</reports>
   <reports>Report.Материалы</reports>
+  <reports>Report.НачисленияСотрудникам</reports>
   <reports>Report.ОборотноСальдоваяВедомость</reports>
   <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
+  <reports>Report.Перерасчет</reports>
   <reports>Report.ПереченьУслуг</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
   <reports>Report.РейтингКлиентов</reports>
