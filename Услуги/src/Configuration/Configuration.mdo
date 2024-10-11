@@ -48,6 +48,11 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Услуги</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтерия</roles>
+  <roles>Role.Директор</roles>
+  <roles>Role.Мастер</roles>
+  <roles>Role.Расчетчик</roles>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
