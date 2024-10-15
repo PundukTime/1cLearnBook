@@ -2,16 +2,68 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Catalog.Сотрудники.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Document.НачисленияСотрудникам.StandardCommand.Create</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CalculationRegister.Начисления.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Расчетчик</role>
+        </for>
       </visible>
     </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.НачисленияСотрудникам.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelReports</group>
+      <commands>ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.Create</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.Create</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.НачисленияСотрудникам.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.Начисления.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.ВыручкаМастеров.StandardCommand.Open</commands>
+      <commands>Report.НачисленияСотрудникам.StandardCommand.Open</commands>
+      <commands>Report.Перерасчет.StandardCommand.Open</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.Create</commands>
+      <commands>ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.Create</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

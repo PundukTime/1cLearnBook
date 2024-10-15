@@ -11,4 +11,14 @@
     <picture>CommonPicture.Предприятие</picture>
   </picture>
   <content>DataProcessor.РаботаСЗапросами</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
+  <content>Catalog.Склад</content>
+  <content>Catalog.Субконто</content>
+  <content>Catalog.ВидыГрафиковРаботы</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.ВариантыНоменклатуры</content>
+  <content>Catalog.СписокМатериалов</content>
+  <content>InformationRegister.ЗначенияСвойствНоменклатуры</content>
 </mdclass:Subsystem>

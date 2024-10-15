@@ -93,6 +93,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="a86cd096-619f-4486-bd0c-532237cdcec7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="f39a41cd-289c-4b0b-a237-6ab3c087c40c">
     <producedTypes>
       <objectType typeId="e1c48bd4-d3da-471a-8f21-f3c65fef3af5" valueTypeId="48246e3d-e426-4a84-8243-b08612097b86"/>

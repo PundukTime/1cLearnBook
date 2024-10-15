@@ -10,7 +10,17 @@
     <value>Оборотно сальдовая ведомость</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОборотноСальдоваяВедомость.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОборотноСальдоваяВедомость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="55b82830-1d92-4ddf-bdd8-49990547124e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="f8f728e1-7112-43a7-9786-1cd24068675b">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

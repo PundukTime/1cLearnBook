@@ -32,19 +32,23 @@
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
-      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
-      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelReports</group>
       <commands>InformationRegister.Цены.StandardCommand.Create</commands>
     </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
+      <commands>Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
-      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
@@ -53,6 +57,18 @@
       <group>ActionsPanelReports</group>
       <commands>InformationRegister.Цены.StandardCommand.Create</commands>
       <commands>Report.Материалы.StandardCommand.Open</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
+      <commands>Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.ОказаниеУслуги.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Цены.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
