@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe913791-30ed-4a08-be96-3ff9c7412e22" thisNode="fb6f5b13-bb42-4ded-9f47-050ced0276c4">
+  <producedTypes>
+    <objectType typeId="22403d37-7fcc-4fef-8f0b-7783814ba13a" valueTypeId="c929e51f-2ad2-499e-a374-67ec30d6a2cc"/>
+    <refType typeId="9305e5a3-b70c-4618-85a0-1463f7c37c5f" valueTypeId="c17a36cb-7a5e-472a-afbf-7c2a581c3105"/>
+    <selectionType typeId="d24c8c53-a816-47ca-8e67-5eb1fb4b370c" valueTypeId="903a1f44-a6d1-4335-a732-2235167e7816"/>
+    <listType typeId="4bb9b79e-afda-4ef5-8fd6-78976a6b9044" valueTypeId="9b175069-b0c4-475e-a969-76fc94654c68"/>
+    <managerType typeId="198c335b-bd67-4c0a-bb6c-99e597ea0ca2" valueTypeId="4f0489d3-5500-4f56-95b8-208729fe2edc"/>
+  </producedTypes>
+  <name>Филиалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Филиалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Филиалы.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.Филиалы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Филиал</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.ВариантыНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ДополнительныеСвойстваНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Клиенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Сотрудники</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Склад</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ОказаниеУслуги</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ПриходнаяНакладная</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.СвойстваНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияСвойствНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.Цены</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.ОстаткиМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.Продажи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.СтоимостьМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.Филиалы.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.Филиалы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="72a25b8f-a640-4d6d-91be-621d04cc5282">
+    <name>Главный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d1490d7c-deec-4ae2-8d9d-1accf95930af">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2129d745-faf8-44e4-903b-9e3fd20d1b61">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

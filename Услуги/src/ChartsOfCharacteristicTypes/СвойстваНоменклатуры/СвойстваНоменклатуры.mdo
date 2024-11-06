@@ -39,7 +39,7 @@
     </stringQualifiers>
   </type>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>11</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <checkUnique>true</checkUnique>

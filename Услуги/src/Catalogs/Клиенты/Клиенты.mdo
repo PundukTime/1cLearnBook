@@ -103,7 +103,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>11</codeLength>
   <descriptionLength>50</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>

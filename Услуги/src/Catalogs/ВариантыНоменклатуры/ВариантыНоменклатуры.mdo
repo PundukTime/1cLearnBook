@@ -35,7 +35,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Номенклатура</owners>
-  <codeLength>9</codeLength>
+  <codeLength>11</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
