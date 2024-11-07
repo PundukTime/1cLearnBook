@@ -27,23 +27,7 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <content>
-    <mdObject>Catalog.ВариантыНоменклатуры</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>Catalog.ДополнительныеСвойстваНоменклатуры</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>Catalog.Номенклатура</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>Catalog.Клиенты</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>Catalog.Сотрудники</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -51,7 +35,31 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Document.ОказаниеУслуги</mdObject>
+    <mdObject>AccumulationRegister.ОстаткиМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.Цены</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Сотрудники</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияСвойствНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.Продажи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ДополнительныеСвойстваНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ВариантыНоменклатуры</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -63,19 +71,11 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.ЗначенияСвойствНоменклатуры</mdObject>
+    <mdObject>Document.ОказаниеУслуги</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.Цены</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>AccumulationRegister.ОстаткиМатериалов</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>AccumulationRegister.Продажи</mdObject>
+    <mdObject>Catalog.Клиенты</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -111,7 +111,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="2129d745-faf8-44e4-903b-9e3fd20d1b61">
+  <forms uuid="d78bdeff-3987-4bba-8bb6-384fff94fd7f">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

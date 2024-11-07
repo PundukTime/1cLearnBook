@@ -90,6 +90,7 @@
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>

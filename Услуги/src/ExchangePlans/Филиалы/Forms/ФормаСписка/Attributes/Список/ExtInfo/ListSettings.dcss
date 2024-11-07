@@ -2,16 +2,16 @@
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
 	<filter>
 		<viewMode>Normal</viewMode>
-		<userSettingID>cb6631d4-b43f-4c92-8b2a-ae10bfde282d</userSettingID>
+		<userSettingID>27197c53-9deb-4ce1-a755-4448cca15879</userSettingID>
 	</filter>
 	<order>
 		<viewMode>Normal</viewMode>
-		<userSettingID>97c6448f-dce8-4088-abd1-c7d14d5ec340</userSettingID>
+		<userSettingID>83d0f0f2-2322-4377-ac59-c3f0023631a2</userSettingID>
 	</order>
 	<conditionalAppearance>
 		<viewMode>Normal</viewMode>
-		<userSettingID>31ea98ba-e749-4921-9ecc-76071790b8d9</userSettingID>
+		<userSettingID>e8c267be-bd89-496b-a196-871dd00a52dd</userSettingID>
 	</conditionalAppearance>
 	<itemsViewMode>Normal</itemsViewMode>
-	<itemsUserSettingID>fb5420b9-b901-4891-8e2c-94581cb0dd41</itemsUserSettingID>
+	<itemsUserSettingID>56d7420d-c081-4cdf-a97b-6e57d0f80881</itemsUserSettingID>
 </Settings>
