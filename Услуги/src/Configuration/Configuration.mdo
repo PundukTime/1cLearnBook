@@ -63,6 +63,7 @@
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
   <constants>Constant.ПрефиксНумерации</constants>
+  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
