@@ -35,6 +35,28 @@
         </for>
       </visibility>
     </items>
+    <items>
+      <form>ExchangePlan.Отделения.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visibility>
+    </items>
+    <items>
+      <form>ExchangePlan.Филиалы.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visibility>
+    </items>
   </columns>
   <columns>
     <items>

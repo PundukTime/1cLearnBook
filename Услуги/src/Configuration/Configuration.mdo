@@ -59,6 +59,7 @@
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <exchangePlans>ExchangePlan.Отделения</exchangePlans>
   <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
@@ -92,6 +93,7 @@
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
   <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменСОтделениями</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
