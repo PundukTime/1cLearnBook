@@ -21,9 +21,9 @@
   <content>Catalog.ВариантыНоменклатуры</content>
   <content>Catalog.СписокМатериалов</content>
   <content>InformationRegister.ЗначенияСвойствНоменклатуры</content>
-  <content>CommonForm.ОбщиеНастройки</content>
   <content>ExchangePlan.Филиалы</content>
   <content>DataProcessor.ОбменДанными</content>
   <content>ExchangePlan.Отделения</content>
   <content>DataProcessor.ОбменСОтделениями</content>
+  <content>CommonForm.ОбщиеНастройки</content>
 </mdclass:Subsystem>

@@ -63,7 +63,13 @@
   <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
+  <functionalOptions>FunctionalOption.БухгалтерскийУчет</functionalOptions>
+  <functionalOptions>FunctionalOption.РасчетЗарплаты</functionalOptions>
+  <functionalOptions>FunctionalOption.УчетКлиентов</functionalOptions>
+  <constants>Constant.БухгалтерскийУчет</constants>
   <constants>Constant.ПрефиксНумерации</constants>
+  <constants>Constant.РасчетЗарплаты</constants>
+  <constants>Constant.УчетКлиентов</constants>
   <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
