@@ -53,6 +53,7 @@
   <roles>Role.Директор</roles>
   <roles>Role.Мастер</roles>
   <roles>Role.Расчетчик</roles>
+  <filterCriteria>FilterCriterion.ОказаниеУслуги</filterCriteria>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
   <commonModules>CommonModule.Обмен</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
