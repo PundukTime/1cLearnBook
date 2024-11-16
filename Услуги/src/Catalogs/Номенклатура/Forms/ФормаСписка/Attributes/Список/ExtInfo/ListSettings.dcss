@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<viewMode>Normal</viewMode>
+		<userSettingID>50e6d533-c931-45ff-8393-6a28c480c666</userSettingID>
+	</filter>
+	<order>
+		<viewMode>Normal</viewMode>
+		<userSettingID>c1a15e9a-7e9c-4a00-b0c0-7d4faf016426</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection/>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ВидНоменклатуры</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыНоменклатуры.Услуга</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветФона</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#CC99FF</dcscor:value>
+				</dcscor:item>
+			</appearance>
+			<userSettingID>8b8fa0be-25be-4c14-85c5-4b1551efb701</userSettingID>
+			<userSettingPresentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Услуга</v8:content>
+				</v8:item>
+			</userSettingPresentation>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>Цена</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Цена</left>
+					<comparisonType>Less</comparisonType>
+					<right xsi:type="xs:decimal">5000</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ЦветФона</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#000000</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#000000</dcscor:value>
+				</dcscor:item>
+			</appearance>
+			<userSettingID>ff7e143e-c9f4-49cc-8470-c1c22f757be4</userSettingID>
+			<userSettingPresentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Низкая цена</v8:content>
+				</v8:item>
+			</userSettingPresentation>
+		</item>
+		<userSettingID>a3158270-b982-4b24-986c-521b6cf2b787</userSettingID>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>36ff3f3b-b593-4891-abeb-b16dce971457</itemsUserSettingID>
+</Settings>
