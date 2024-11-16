@@ -116,6 +116,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
   <attributes uuid="95a500f1-8b56-4480-833b-15acaa57f21b">
     <name>ВидНоменклатуры</name>
     <synonym>
@@ -131,4 +132,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="ac0ae7eb-7bd5-482f-bb33-7f712c905362">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
