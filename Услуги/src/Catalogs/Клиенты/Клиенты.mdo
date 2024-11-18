@@ -113,6 +113,24 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Клиенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="8c1f8246-514a-4007-aae9-73183a59264b">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="def38cc2-950b-4ec3-b781-f750c3a92036">
     <name>ФормаЭлемента</name>
     <synonym>
